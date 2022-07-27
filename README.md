@@ -1,11 +1,15 @@
 # sprite-splitter
 
 A python script to easily split a spritesheet* into a bunch of individual files of a set size
+*A spritesheet is a large photo made up of smaller photos often used for game development
 
-* A spritesheet is a large photo made up of smaller photos often used for game development
+## Before Use:
 
-
-Before Use:
-  *set filename variable to the path of your image
-  *set the tile width and height variables to the size of your desired sprites
-  
+  * set filename variable to the path of your image
+  * set the tile width and height variables to the size of your desired sprites
+       ```py
+       
+       filename = "YOUR_IMAGE_PATH"
+       
+       tile_width = 16 
+       tile_height = 16
